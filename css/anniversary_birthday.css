@@ -1,0 +1,400 @@
+body{
+    background:#263e5e;
+}
+.anniversary_page{
+    background:#ffbf47;
+}
+.banner img{
+    display:block;
+    width:100%;
+}
+.wrap_page{
+    width: 1114px;
+    margin:0 auto;
+    text-align: center;
+}
+.wrap_page .barrage_count{
+    position:relative;
+    margin-top:-120px;
+    height: 432px;
+    border: 6px solid #f3a30b;
+    border-radius:10px;
+    background-color: #3b3f49;
+    cursor: pointer;
+}
+.barrage_count .cake{
+    width:120px;
+    height:179px;
+    background:url(../images/cake.png) no-repeat;
+    position:absolute;
+    bottom:-42px;
+    right:-47px;
+}
+.wrap_page h2 {
+    height:70px;
+    line-height:70px;
+    font-size:30px;
+    color: #fff2ce;
+    padding-top:10px;
+    text-shadow: 0 0 30px #f6aa19;
+}
+.wrap_page .message {
+    width:662px;
+    height:142px;
+    margin:0 auto 6px;
+    position: relative;
+}
+.message .message_cont {
+    width: 630px;
+    height: 110px;
+    border: 6px solid #f3a30b;
+    border-radius:10px;
+    padding: 20px 0 0 20px;
+    font-size:24px;
+    resize: none;
+    outline: none;
+    cursor: pointer;
+}
+.message p {
+    font-size:24px;
+    color:#f46953;
+    position: absolute;
+    left: 30px;
+    top: 22px;
+}
+.benediction_hint{
+    width:220px;
+    height:40px;
+    line-height:40px;
+    text-align: center;
+    font-size:18px;
+    color:#fff;
+    background:#664c1c;
+    border-radius:20px;
+    margin:0 auto;
+    /* visibility:  hidden; */
+}
+
+.express_title {
+    width: 272px;
+    border: 12px solid #f3a30b;
+    background-color: #f46953;
+    border-radius: 40px;
+    font-size:30px;
+    color: #fff2ce;
+    margin:14px auto 0;
+    cursor: pointer;
+}
+.express_title>div{
+    height:78px;
+    line-height:78px;
+    border-bottom: 16px solid #f45037;
+    border-radius: 31px;
+}
+.examine_wish{
+    height:30px;
+    line-height:30px;
+    font-size:22px;
+    color:#f45037;
+    padding:32px 0 22px;
+}
+.examine_wish i{
+    display:inline-block;
+    width:24px;
+    height:14px;
+    cursor: pointer;
+}
+.examine_wish i.top_arrow{
+    background:url(../images/top_arrow.png) no-repeat;
+}
+.examine_wish i.bottom_arrow{
+     background:url(../images/bottom_arrow.png) no-repeat;
+}
+.table_list{
+    width:662px;
+    margin:0 auto;
+    background:#f3a30b;
+    border-radius: 10px;
+    font-size:22px;
+    padding-bottom:6px;
+}
+.table_list table{
+    width:650px;
+    margin:0 auto;
+    border-radius:0 0 10px 10px;
+    border-collapse:collapse;
+    overflow: hidden;
+}
+.table_list thead td{
+    height:50px;
+    line-height:50px;
+    color:#fff2ce;
+}
+.table_list tbody{
+     background:#fff2ce;
+     padding-bottom: 6px;
+}
+.table_list tbody tr{
+    border-bottom:2px solid #f3a30b;
+}
+.table_list tbody tr:last-of-type{
+    border-bottom:none;
+}
+.table_list tbody td{
+    width:159px;
+    height:30px;
+    line-height:30px;
+    padding: 18px 28px;
+    font-size:22px;
+    color:#f3a30b;
+}
+.table_list tbody td:last-of-type{
+    border-left:2px solid #f3a30b;
+}
+.manage_count{
+    text-align: center;
+    padding:38px 0 32px;
+}
+.sale_list{
+    width:624px;
+    margin: 0 auto -2px;
+}
+.sale_list span{
+    float:left;
+    width:208px;
+    height:68px;
+    line-height: 72px;
+    font-size:30px;
+    color:#ffe8b3;
+    cursor: pointer;
+}
+
+.sale_list span.active{
+    background: #f3a30b;
+    font-size:40px;
+    color:#fff2ce;
+    border-radius:40px 40px 0 0;
+}
+.sale_bg{
+    width:1113px;
+    background:url(../images/sale_bg.png) no-repeat;
+    margin: 0 auto 20px;
+}
+.top_three{
+    width:966px;
+    margin:0 auto;
+    padding: 70px 0 24px;
+}
+.user_list{
+    padding: 42px 24px 29px;
+}
+.top_three li,.user_list li{
+    float:left;
+}
+.top_three li{
+    width:322px;
+}
+.top_three li .little_head_portrait{
+    width:130px;
+    margin: 40px auto 10px;
+    position: relative;
+    cursor: pointer;
+}
+.top_three li .big_head_portrait{
+    width:159px;
+    margin: 0 auto 17px;
+    position: relative;
+}
+.user_list li .minimum_head_portrait{
+    width:82px;
+    margin: 0 auto 8px;
+    position: relative;
+    cursor: pointer;
+}
+.top_three div p,.user_list div p{
+    height:34px;
+    line-height:34px;
+    color:#e59600;
+}
+.top_three div p{
+    font-size:22px;
+}
+.user_list div p{
+    font-size:18px;
+}
+.top_three div.invest_count p{
+    font-size:28px;
+    color:#f46751;
+}
+.little_head_portrait i,.big_head_portrait i,.minimum_head_portrait i{
+    display:inline-block;
+    position:absolute;
+}
+.little_head_portrait i,.big_head_portrait i{
+    width:36px;
+    height: 48px;
+    left:-2px;
+    bottom:0;
+}
+.little_head_portrait i.silver_medal{
+    background:url(../images/silver_medal.png) no-repeat;
+}
+.big_head_portrait i.gold_medal{
+    background:url(../images/gold_medal.png) no-repeat;
+}
+.little_head_portrait i.copper_medal{
+    background:url(../images/copper_medal.png) no-repeat;
+}
+.user_list li{
+    width:152px;
+}
+.minimum_head_portrait i{
+    width:20px;
+    height:20px;
+    line-height:20px;
+    text-align: center;
+    background:#f3a30b;
+    border-radius:50%;
+    font-size:14px;
+    color:#fff2ce;
+    top:-5px;
+    left:0;
+}
+.wrap_page .bookmark{
+    width:1166px;
+    height:735px;
+    background:url(../images/bookmark.png) no-repeat;
+    margin: -8px auto 0;
+}
+.wrap_page .bookmark_count{
+    padding-top:160px;
+}
+.bookmark_left{
+    width: 540px;
+    padding-top: 12px;
+}
+.bookmark_left p,.bookmark_right p{
+    font-size:20px;
+    color:#945b2e;
+}
+.bookmark_left p{
+    height:48px;
+    line-height:48px;
+}
+.bookmark_left p em{
+    font-size:28px;
+    color:#f45037;
+}
+.wrap_page .bookmark_right{
+    width: 506px;
+}
+.wrap_page .code_count{
+    padding: 26px 0 0 26px;
+}
+.code_count .img_code{
+    padding-top:120px;
+    cursor: pointer;
+}
+.Financial_count{
+    padding-top:50px;
+}
+.warm_prompt{
+    padding: 68px 0 55px;
+}
+.wrap_page .Prompt{
+    text-align: left;
+    padding:0 0 76px 152px;
+}
+.wrap_page .Prompt p{
+    height:32px;
+    line-height:32px;
+    font-size:18px;
+    color:#945b2e;
+}
+.overlay {
+    display:none;
+    background: #000;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.Dialog{
+    display:none;
+    text-align: center;
+    position: fixed;
+    z-index: 3;
+}
+.cake_icon,.verbal_count,.cakeTwo_count{
+    width:620px;
+    top: 20%;
+    left: 50%;
+    position: fixed;
+    margin-left: -310px;
+}
+.Dialog .skip_btn{
+    width:106px;
+    height:40px;
+    line-height:40px;
+    text-align: center;
+    font-size:24px;
+    color:#fff;
+    border:1px solid #fff;
+    border-radius:20px;
+    position: fixed;
+    top: 10%;
+    right: 23%;
+    cursor:pointer;
+}
+.verbal_count .character{
+    padding-bottom:42PX;
+}
+.verbal_count .character p{
+    height:58px;
+    line-height:58px;
+    font-size:30px;
+    color:#fff2ce;
+}
+.cakeTwo_count .cakeTwo_icon{
+    width:485px;
+    height:496px;
+    background:url(../images/cakeTwo_icon.png) no-repeat;
+    margin: 0 auto;
+}
+.cakeTwo_icon .audit{
+    padding:310px 0 12px;
+}
+.cakeTwo_icon .audit p{
+    height:36px;
+    line-height:36px;
+    font-size:24px;
+    color:#f45037;
+}
+.confirm_btn{
+    width: 362px;
+    height:52px;
+    line-height:52px;
+    border-bottom: 8px solid #f45037;
+    background-color: #f46953;
+    border-radius: 40px;
+    font-size:24px;
+    color: #fff2ce;
+    margin:14px auto 0;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
